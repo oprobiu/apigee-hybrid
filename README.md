@@ -75,10 +75,11 @@ bash apigee-installer.sh (--manual | --auto) --debug        # The flag will show
 
 ## NOTES / LIMITATIONS
 
-- Only Apigee Hybrid `EVALUATION` installations are supported.
+- Only Apigee Hybrid `EVALUATION` installations are available.
+- Only GKE installations are available.
 - Step `2.10: Check cluster readiness` was deprecated in Apigee Hybrid v1.13.
-- Enabling WIF is not available yet.
-- Production-like deployments are not avaiable yet.
+- Enabling WIF is not available.
+- Production-like deployments are not avaiable.
 - Custom Ingress Service is available for GKE.
 - Data Residency is **not** available.
 
